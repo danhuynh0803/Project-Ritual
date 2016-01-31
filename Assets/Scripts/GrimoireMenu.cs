@@ -197,7 +197,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button2.GetComponent<Button>().interactable = false;
 			isIngredientSelected = true;
 			selectionArray[2] = !selectionArray[2];
 		}
@@ -211,7 +211,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button3.GetComponent<Button>().interactable = false;
 			isFloorSelected = true;
 			selectionArray[3] = !selectionArray[3];
 		}
@@ -225,7 +225,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button4.GetComponent<Button>().interactable = false;
 			isFloorSelected = true;
 			selectionArray[4] = !selectionArray[4];
 		}
@@ -239,7 +239,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button5.GetComponent<Button>().interactable = false;
 			isFloorSelected = true;
 			selectionArray[5] = !selectionArray[5];
 		}
@@ -253,7 +253,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button6.GetComponent<Button>().interactable = false;
 			isPoseSelected = true;
 			selectionArray[6] = !selectionArray[6];
 		}
@@ -267,7 +267,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button7.GetComponent<Button>().interactable = false;
 			isPoseSelected = true;
 			selectionArray[7] = !selectionArray[7];
 		}
@@ -281,7 +281,7 @@ public class GrimoireMenu : MonoBehaviour {
 		}
 		else 
 		{
-			button1.GetComponent<Button>().interactable = false;
+			button8.GetComponent<Button>().interactable = false;
 			isPoseSelected = true;
 			selectionArray[8] = !selectionArray[8];
 		}
